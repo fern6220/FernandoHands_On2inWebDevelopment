@@ -1,0 +1,92 @@
+/*General*/
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    background-color: dimgrey;
+}
+h1{
+    text-align: center;
+}
+/*Navigation Bar*/
+.navbar ul{
+    list-style-type: none;
+    background-color:darkgrey;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden; 
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: goldenrod;
+}
+.navbar li{
+    float: left;
+    width: auto;
+}
+/*Homepage Divisions*/
+.homepage{
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+div{
+    text-align: auto;
+    width: auto;
+    padding: 10px;
+}
+.intro{
+    background-color: rgb(17, 65, 131);
+}
+.skills{
+    background-color: rgb(76, 100, 178);
+}
+
+/*About Me Divisions*/
+.about{
+    display: grid;
+    grid-template-columns: 33% 35% 32%;
+
+}
+.bio{
+    background-color:  rgb(17, 65, 131);
+}
+.educ{
+    background-color:rgb(26, 19, 131);
+}
+.career{
+    background-color: rgb(76, 100, 178)  ;
+}
+
+/*y Interests Divisions*/
+.interests{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.gaming{
+   background-color: rgb(17, 65, 131);
+}
+.code{
+    background-color: rgb(26, 19, 131);
+}
+.chess{
+   background-color: rgb(76, 100, 178);
+}
+.business{
+    background-color: rgb(190, 143, 25);
+}
+
+/*Footer*/
+footer{
+    text-align: center;
+    margin-top: 0px;
+}
+
